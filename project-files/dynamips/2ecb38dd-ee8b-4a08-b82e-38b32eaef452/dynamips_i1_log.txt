@@ -1,0 +1,23 @@
+Jul 19 19:13:09.618 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Jul 19 19:13:09.618 HYPERVISOR: Started on IP = localhost, TCP port = 53187.
+Jul 19 19:13:09.856 HYPERVISOR: exec_cmd: hypervisor version 
+Jul 19 19:13:09.858 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\pradc\GNS3\projects\FirstProjectPrada\project-files\dynamips 
+Jul 19 19:13:09.890 GENERAL: working_dir=C:\Users\pradc\GNS3\projects\FirstProjectPrada\project-files\dynamips
+Jul 19 19:13:09.891 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\pradc\GNS3\projects\FirstProjectPrada\project-files\dynamips\2ecb38dd-ee8b-4a08-b82e-38b32eaef452 
+Jul 19 19:13:09.892 GENERAL: working_dir=C:\Users\pradc\GNS3\projects\FirstProjectPrada\project-files\dynamips\2ecb38dd-ee8b-4a08-b82e-38b32eaef452
+Jul 19 19:13:09.892 HYPERVISOR: exec_cmd: vm create R1 1 c3745 
+Jul 19 19:13:09.894 VM: VM R1 created.
+Jul 19 19:13:09.895 HYPERVISOR: exec_cmd: vm set_con_tcp_port R1 5000 
+Jul 19 19:13:09.896 HYPERVISOR: exec_cmd: c3745 get_mac_addr R1 
+Jul 19 19:13:09.897 HYPERVISOR: exec_cmd: vm set_ios R1 C:/Users/pradc/GNS3/images/IOS/c3745-advipservicesk9-mz.124-25d.image 
+Jul 19 19:13:09.898 HYPERVISOR: exec_cmd: vm set_exec_area R1 64 
+Jul 19 19:13:09.899 HYPERVISOR: exec_cmd: vm set_ram R1 256 
+Jul 19 19:13:09.900 HYPERVISOR: exec_cmd: vm set_nvram R1 256 
+Jul 19 19:13:09.900 HYPERVISOR: exec_cmd: vm set_disk0 R1 0 
+Jul 19 19:13:10.243 HYPERVISOR: exec_cmd: vm set_ios R1 C:/Users/pradc/GNS3/images/IOS/c3745-advipservicesk9-mz.124-25d.image 
+Jul 19 19:15:14.492 HYPERVISOR: exec_cmd: nio create_udp udp-ddaee034-a1a4-4031-b0cd-4a6222571441 10002 127.0.0.1 10003 
+Jul 19 19:15:14.765 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R1 0 0 udp-ddaee034-a1a4-4031-b0cd-4a6222571441 
+Jul 19 19:15:14.766 HYPERVISOR: exec_cmd: vm get_status R1 
+Jul 19 19:15:43.460 HYPERVISOR: exec_cmd: vm get_status R1 
+Jul 19 19:15:43.461 HYPERVISOR: exec_cmd: vm slot_remove_nio_binding R1 0 0 
+Jul 19 19:15:43.462 HYPERVISOR: exec_cmd: nio delete udp-ddaee034-a1a4-4031-b0cd-4a6222571441 
